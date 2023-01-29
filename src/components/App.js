@@ -32,8 +32,8 @@ const clickfunction = () => {
       Password
       <input id="inputPassword" type="text" value={password} ref={passwordinput} onChange={(e)=>Setpassword(e.target.value)}/><br/>
       <button id="submitButton" onClick={()=>clickfunction()}>Submit</button><br/>
-      <p id="emailText">Your Email : {email}</p>
-      <p id ="passwordText">Your Password : {password}</p>
+      <p id="emailText">Your Email : {emailval}</p>
+      <p id ="passwordText">Your Password : {passval}</p>
       
     </div>
   )
