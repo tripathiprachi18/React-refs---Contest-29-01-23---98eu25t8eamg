@@ -10,6 +10,8 @@ const emailinput=useRef(null);
   const[emailval,Setemailval]=useState[""];
   const[passval,Setpassval]=useState("");
 const clickfunction = () => {
+  Setemailval("");
+  Setpassval("");
   if(email.length===0){
     emailinput.current.focus();
     
