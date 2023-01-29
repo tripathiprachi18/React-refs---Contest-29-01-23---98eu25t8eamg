@@ -28,9 +28,9 @@ const clickfunction = () => {
   return (
     <div id="main">
       Email
-      <input id="inputEmail" type="text" value={email} ref={emailinput} onChange={(e)=>{e.target.value}}/><br/>
+      <input id="inputEmail" type="text" value={email} ref={emailinput} onChange={(e)=>Setemail(e.target.value)}/><br/>
       Password
-      <input id="inputPassword" type="text" value={password} ref={passwordinput} onChange={(e)=>{e.target.value}}/><br/>
+      <input id="inputPassword" type="text" value={password} ref={passwordinput} onChange={(e)=>Setpassword(e.target.value)}/><br/>
       <button id="submitButton" onClick={clickfunction}>Submit</button><br/>
       <p id="emailText">Your Email : {email}</p>
       <p id ="passwordText">Your Password : {password}</p>
