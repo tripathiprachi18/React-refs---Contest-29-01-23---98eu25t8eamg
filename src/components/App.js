@@ -16,7 +16,7 @@ const clickfunction = () => {
     emailinput.current.focus();
     
   }else if(password.length===0){
-  passswordinput.current.focus();
+  passwordinput.current.focus();
   }else{
     Setemailval(email);
     Setpassval(password);
