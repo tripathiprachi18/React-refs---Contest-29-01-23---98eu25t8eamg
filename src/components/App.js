@@ -7,7 +7,7 @@ const emailinput=useRef(null);
   
   const [email,Setemail]=useState("");
   const[password,Setpassword]=useState("");
-  const[emailval,Setemailval]=useState[""];
+  const[emailval,Setemailval]=useState("");
   const[passval,Setpassval]=useState("");
 const clickfunction = () => {
   Setemailval("");
